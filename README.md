@@ -1,36 +1,22 @@
 ## Programiranje u asembleru
-Pokrenite simulator asemblera EdSim 51 i riješite sljedeće zadatke:
-Primjer 1. Zbrojite brojeve 32h i 11h pomoću registara A i B. Prenesite rezultat na memorijsku lokaciju
-10h.
-Primjer 2. Pomnožite brojeve 12h i 0Fh pomoću registara A i B. Od dobivenog rezultata oduzmite 02h.
-Koje su zastavice postavljene neposredno nakon množenja? Zašto?
-Primjer 3. Oduzmite broj 2Ah od broja 12h pomoću registara A i B. Komplementirajte i uvećajte rezultat
-za 1, kako biste dobili apsolutnu vrijednost stvarne razlike brojeva. Rezultat prenesite u registar R0.
-Koje su zastavice postavljene neposredno nakon oduzimanja? Zašto?
-Zadatak 1. Na memorijske lokacije 3Ah i 3Bh pohranite brojeve 27h i 2Eh. Zbrojite ove brojeve pa
-rezultat pohranite na memorijsku jedinicu 3Ch.
-Zadatak 2. Pomoću registara A i B podijelite brojeve 09h i 04h. Rezultat dijeljenja pohranite u registar
-R3, a ostatak pri dijeljenju u registar R4.
-Zadatak 3. Podatak zapisan u registru R2 uvećajte za 1.
-Zadatak 4. Podatak zapisan u registru R3 pomnožite sa 2.
-Zadatak 5. Pomoću registara A i B kvadrirajte broj 1Ch. Više značajne znamenke rezultata pohranite u
-registar R1, a manje značajne u registar R2.
-Zadatak 6. U akumulator upišite vrijednost E3h, a na lokaciju 40h vrijednost 92h. Izvršite operaciju I
-nad upisana dva podatka te zatim dobiveni rezultat pohranite na adresu 41h.
-Zadatak 7. Podijelite brojeve 12h i 0Fh pomoću registara A i B. Ostatku dodajte 2 i tako dobiveni
-rezultat pohranite u registar R7.
-Zadatak 8. Na memorijske lokacije 31h i 32h pohranite brojeve 14h i 2Eh. Kvadrirajte oba broja i zatim
-zbrojite dobivene kvadrate. Više značajne znamenke rezultata pohranite na memorijsku lokaciju 33h,
-a manje značajne na memorijsku lokaciju 34h. Prema potrebi koristite registre opće namjene. Za
-zadane brojeve ne pojavljuje se prijenos između manje značajnih i više značajnih znamenki.
-Primjer 4. Definirajte konstantu broj i dodijelite joj vrijednost 3Eh. U akumulator upišite vrijednost 1Fh
-te izvršite operaciju ILI nad akumulatorom i konstantom broj. Rezultat pohranite na adresu 2Ch.
-Primjer 5. Definirajte konstantu adresa i dodijelite joj vrijednost 3Eh. U akumulator upišite vrijednost
-1Fh pa ju udvostručite i dobiveni rezultat pohranite na memorijsku lokaciju adresa.
-Zadatak 9. Definirajte konstantu dodatak i dodijelite joj vrijednost 03h. Uvećajte sve brojeve na
-memorijskim lokacijama od 3Ah do 3Eh za vrijednost dodatak.
-Zadatak 10. Definirajte konstantu par i dodijelite joj vrijednost 21h. Pomnožite broj koji je za 1 veći od
-konstante par sa 03h pa rezultat zapišite na memorijsku lokaciju par. 
+
+    Pokrenite simulator asemblera EdSim 51 i riješite sljedeće zadatke:
+    
+# Primjer 1. Zbrojite brojeve 32h i 11h pomoću registara A i B. Prenesite rezultat na memorijsku lokaciju 10h.
+# Primjer 2. Pomnožite brojeve 12h i 0Fh pomoću registara A i B. Od dobivenog rezultata oduzmite 02h. Koje su zastavice postavljene neposredno nakon množenja? Zašto?
+# Primjer 3. Oduzmite broj 2Ah od broja 12h pomoću registara A i B. Komplementirajte i uvećajte rezultat za 1, kako biste dobili apsolutnu vrijednost stvarne razlike brojeva. Rezultat prenesite u registar R0. Koje su zastavice postavljene neposredno nakon oduzimanja? Zašto?
+# Zadatak 1. Na memorijske lokacije 3Ah i 3Bh pohranite brojeve 27h i 2Eh. Zbrojite ove brojeve pa rezultat pohranite na memorijsku jedinicu 3Ch.
+# Zadatak 2. Pomoću registara A i B podijelite brojeve 09h i 04h. Rezultat dijeljenja pohranite u registar R3, a ostatak pri dijeljenju u registar R4.
+# Zadatak 3. Podatak zapisan u registru R2 uvećajte za 1.
+# Zadatak 4. Podatak zapisan u registru R3 pomnožite sa 2.
+# Zadatak 5. Pomoću registara A i B kvadrirajte broj 1Ch. Više značajne znamenke rezultata pohranite u registar R1, a manje značajne u registar R2.
+# Zadatak 6. U akumulator upišite vrijednost E3h, a na lokaciju 40h vrijednost 92h. Izvršite operaciju I nad upisana dva podatka te zatim dobiveni rezultat pohranite na adresu 41h.
+# Zadatak 7. Podijelite brojeve 12h i 0Fh pomoću registara A i B. Ostatku dodajte 2 i tako dobiveni rezultat pohranite u registar R7.
+# Zadatak 8. Na memorijske lokacije 31h i 32h pohranite brojeve 14h i 2Eh. Kvadrirajte oba broja i zatim zbrojite dobivene kvadrate. Više značajne znamenke rezultata pohranite na memorijsku lokaciju 33h, a manje značajne na memorijsku lokaciju 34h. Prema potrebi koristite registre opće namjene. Za zadane brojeve ne pojavljuje se prijenos između manje značajnih i više značajnih znamenki.
+# Primjer 4. Definirajte konstantu broj i dodijelite joj vrijednost 3Eh. U akumulator upišite vrijednost 1Fh te izvršite operaciju ILI nad akumulatorom i konstantom broj. Rezultat pohranite na adresu 2Ch.
+# Primjer 5. Definirajte konstantu adresa i dodijelite joj vrijednost 3Eh. U akumulator upišite vrijednost 1Fh pa ju udvostručite i dobiveni rezultat pohranite na memorijsku lokaciju adresa.
+# Zadatak 9. Definirajte konstantu dodatak i dodijelite joj vrijednost 03h. Uvećajte sve brojeve na memorijskim lokacijama od 3Ah do 3Eh za vrijednost dodatak.
+# Zadatak 10. Definirajte konstantu par i dodijelite joj vrijednost 21h. Pomnožite broj koji je za 1 veći od konstante par sa 03h pa rezultat zapišite na memorijsku lokaciju par. 
 
 Primjer 6. Zbrojite brojeve A2h i 61h pomoću registara A i B. Više značajne znamenke rezultata
 prenesite na memorijsku lokaciju 31h, a manje značajne na lokaciju 32h.
@@ -101,50 +87,52 @@ zapisu, tako da su mu više značajne znamenke zapisane na lokaciji 12h. Zbrojit
 zapišite u memoriju počevši od lokacije 20h, na način da se najviše značajne znamenke zapišu u lokaciju
 20h. Pazite na prijenose! 
 
-Potrebne naredbe:
-Naredba Akcija Lokacija rezultata
-ADD A, x zbraja vrijednost u A s vrijednosti x (ili na lokaciji x) A
-ANL A, x
-izvršava logičku operaciju I nad vrijednosti u A i vrijednosti
-x (ili na lokaciji x) A
-CJNE A, x, label
-provjerava je li vrijednost u A (ili registru opće namjene)
-jednaka vrijednosti x (ili na lokaciji x) te, ako nije, skače na
-oznaku label
--
-CLR x vrijednost na memorijskoj lokaciji x postavlja u nulu lokacija x
-CPL A komplementira vrijednost u A A
-DEC x vrijednost na memorijskoj lokaciji x umanjuje za 1 lokacija x
-DIV AB dijeli vrijednost u A s vrijednosti na lokaciji B
-rezultat u A,
-ostatak u B
-DJNZ x, label umanjuje vrijednost na memorijskoj lokaciji x za 1 te, ako
-nova vrijednost nije 0, skače na oznaku label lokacija x
-naziv EQU x definira konstantu naziv i dodjeljuje joj vrijednost x -
-INC x vrijednost na memorijskoj lokaciji x uvećava za 1 lokacija x
-JC label provjerava je li postavljena zastavica prijenosa te, ako jest,
-skače na oznaku label -
-JMP label skače na oznaku label -
-JNC label provjerava je li postavljena zastavica prijenosa te, ako nije,
-skače na oznaku label -
-MOV x, y prenosi vrijednost y (ili s lokacije y) u lokaciju x lokacija x
-MUL AB množi vrijednosti na lokacijama A i B
-manje zn. zn. u A,
-više zn. zn. u B
-ORL A, x
-izvršava logičku operaciju ILI nad vrijednosti u A i
-vrijednosti x (ili na lokaciji x) A
-POP x
-posprema vrijednost s vrha stoga na memorijsku lokaciju x
-(x ne može biti A niti registar opće namjene!) lokacija x
-PUSH x
-sprema vrijednost s memorijske lokacije x na vrh stoga
-(x ne može biti A niti registar opće namjene!)
-lokacija čija je
-adresa zapisana u
-SP prije izvođenja
-naredbe
-SUBB A, x oduzima vrijednost x (ili na lokaciji x) od vrijednosti u A A
-XRL A, x
-izvršava logičku operaciju ISKLJUČIVO ILI nad vrijednosti u
-A i vrijednosti x (ili na lokaciji x) A
+## Potrebne naredbe:
+```
+    Naredba Akcija Lokacija rezultata
+    ADD A, x zbraja vrijednost u A s vrijednosti x (ili na lokaciji x) A
+    ANL A, x
+    izvršava logičku operaciju I nad vrijednosti u A i vrijednosti
+    x (ili na lokaciji x) A
+    CJNE A, x, label
+    provjerava je li vrijednost u A (ili registru opće namjene)
+    jednaka vrijednosti x (ili na lokaciji x) te, ako nije, skače na
+    oznaku label
+    -
+    CLR x vrijednost na memorijskoj lokaciji x postavlja u nulu lokacija x
+    CPL A komplementira vrijednost u A A
+    DEC x vrijednost na memorijskoj lokaciji x umanjuje za 1 lokacija x
+    DIV AB dijeli vrijednost u A s vrijednosti na lokaciji B
+    rezultat u A,
+    ostatak u B
+    DJNZ x, label umanjuje vrijednost na memorijskoj lokaciji x za 1 te, ako
+    nova vrijednost nije 0, skače na oznaku label lokacija x
+    naziv EQU x definira konstantu naziv i dodjeljuje joj vrijednost x -
+    INC x vrijednost na memorijskoj lokaciji x uvećava za 1 lokacija x
+    JC label provjerava je li postavljena zastavica prijenosa te, ako jest,
+    skače na oznaku label -
+    JMP label skače na oznaku label -
+    JNC label provjerava je li postavljena zastavica prijenosa te, ako nije,
+    skače na oznaku label -
+    MOV x, y prenosi vrijednost y (ili s lokacije y) u lokaciju x lokacija x
+    MUL AB množi vrijednosti na lokacijama A i B
+    manje zn. zn. u A,
+    više zn. zn. u B
+    ORL A, x
+    izvršava logičku operaciju ILI nad vrijednosti u A i
+    vrijednosti x (ili na lokaciji x) A
+    POP x
+    posprema vrijednost s vrha stoga na memorijsku lokaciju x
+    (x ne može biti A niti registar opće namjene!) lokacija x
+    PUSH x
+    sprema vrijednost s memorijske lokacije x na vrh stoga
+    (x ne može biti A niti registar opće namjene!)
+    lokacija čija je
+    adresa zapisana u
+    SP prije izvođenja
+    naredbe
+    SUBB A, x oduzima vrijednost x (ili na lokaciji x) od vrijednosti u A A
+    XRL A, x
+    izvršava logičku operaciju ISKLJUČIVO ILI nad vrijednosti u
+    A i vrijednosti x (ili na lokaciji x) A
+```
